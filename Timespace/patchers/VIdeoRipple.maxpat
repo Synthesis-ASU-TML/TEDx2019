@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 333.0, 379.0, 692.0, 564.0 ],
+		"rect" : [ 562.0, 177.0, 692.0, 564.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -249,6 +249,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 97.0, 213.0, 41.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 121.0, 90.0, 41.0, 22.0 ],
 					"style" : "",
 					"text" : "dump"
 				}
@@ -257,14 +259,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 107.0, 267.0, 51.0, 62.0 ],
+					"patching_rect" : [ 107.0, 267.0, 51.0, 49.0 ],
 					"style" : "",
-					"text" : "symbol \"Horizontal Strips\""
+					"text" : "symbol \"Random Grid\""
 				}
 
 			}
@@ -334,7 +336,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 12.0, 114.0, 252.0, 20.0 ],
 					"style" : "",
-					"text" : "Current Mode: Horizontal Strips"
+					"text" : "Current Mode: Random Grid"
 				}
 
 			}
@@ -2017,9 +2019,9 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"fontsize" : [ 13.0 ],
 									"fontname" : [ "Arial" ],
-									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
+									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"fontsize" : [ 13.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2029,11 +2031,11 @@
 								"name" : "m4vatextbutton",
 								"default" : 								{
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"fontsize" : [ 14.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2114,8 +2116,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2124,8 +2126,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2429,6 +2431,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@filter", "none" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3262,28 +3265,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "sc.texture.camera.simple.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hflip.genjit",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/SC/code",
+				"patcherrelativepath" : "../../../../Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.timespace.rgb.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/SC/code",
+				"patcherrelativepath" : "../../../../Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
@@ -3296,7 +3299,7 @@
 , 			{
 				"name" : "sc.texture.slide.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3323,9 +3326,9 @@
 , 			{
 				"name" : "helpfile_label-1",
 				"default" : 				{
-					"fontsize" : [ 13.0 ],
 					"fontname" : [ "Arial" ],
-					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
+					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"fontsize" : [ 13.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3335,11 +3338,11 @@
 				"name" : "m4vatextbutton",
 				"default" : 				{
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3420,8 +3423,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3430,8 +3433,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
