@@ -2,7 +2,7 @@
 	"name" : "ContactMicSynthV2",
 	"version" : 1,
 	"creationdate" : 3607418537,
-	"modificationdate" : 3625132483,
+	"modificationdate" : 3635941406,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -47,6 +47,16 @@
 				"kind" : "audiofile",
 				"local" : 1
 			}
+,
+			"shortwave_18.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"cicada.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
 
 		}
 ,
@@ -55,6 +65,10 @@
 				"kind" : "json",
 				"local" : 1
 			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 
