@@ -1,0 +1,54 @@
+{
+	"pattrstorage" : 	{
+		"name" : "tables",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"samp1" : [ "1maj7.wav" ],
+					"samp2" : [ "2min7.wav" ],
+					"samp3" : [ "4maj7.wav" ],
+					"samp4" : [ "6min7.wav" ],
+					"Mics::gain1" : [ 5.0 ],
+					"Mics::gain2" : [ 5.0 ],
+					"Mics::gain3" : [ 50.0 ],
+					"Mics::gain4" : [ 50.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"samp1" : [ "1maj7.wav" ],
+					"samp2" : [ "2min7.wav" ],
+					"samp3" : [ "4maj7.wav" ],
+					"samp4" : [ "6min7.wav" ],
+					"Mics::gain1" : [ 25.0 ],
+					"Mics::gain2" : [ 10.0 ],
+					"Mics::gain3" : [ 50.0 ],
+					"Mics::gain4" : [ 50.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"samp1" : [ "1maj7.wav" ],
+					"samp2" : [ "2min7.wav" ],
+					"samp3" : [ "4maj7.wav" ],
+					"samp4" : [ "6min7.wav" ],
+					"Mics::gain1" : [ 2.0 ],
+					"Mics::gain2" : [ 20.0 ],
+					"Mics::gain3" : [ 50.0 ],
+					"Mics::gain4" : [ 50.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
