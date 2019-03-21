@@ -43,7 +43,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 357.0, 111.0, 150.0, 20.0 ],
+					"patching_rect" : [ 464.0, 33.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 270.0, 61.0, 141.0, 20.0 ],
 					"text" : "Lighting Setup"
