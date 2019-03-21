@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 986.0, 241.0, 1049.0, 795.0 ],
+		"rect" : [ 785.0, 175.0, 430.0, 331.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 464.0, 33.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.0, 61.0, 141.0, 20.0 ],
+					"presentation_rect" : [ 265.0, 80.0, 141.0, 20.0 ],
 					"text" : "Lighting Setup"
 				}
 
@@ -58,7 +58,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 285.0, 33.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.0, 17.0, 141.0, 20.0 ],
+					"presentation_rect" : [ 265.0, 21.0, 141.0, 20.0 ],
 					"text" : "IP Address Configuration"
 				}
 
@@ -110,7 +110,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 627.0, 109.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.0, 83.0, 141.0, 20.0 ],
+					"presentation_rect" : [ 265.0, 102.0, 141.0, 24.0 ],
 					"text" : "Stage Lighting",
 					"textcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ],
 					"texton" : "Pre/Post Lighting"
@@ -164,7 +164,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 336.0, 114.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.0, 39.0, 141.0, 20.0 ],
+					"presentation_rect" : [ 265.0, 43.0, 141.0, 27.0 ],
 					"text" : "Stage IP",
 					"textcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ],
 					"texton" : "Pre/Post IP"
@@ -173,6 +173,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@dmx_ip", "2.0.1.1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -208,6 +209,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@channels", 1, 2, 3, "@bank_name", "TEDx-Lamps" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
