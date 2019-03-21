@@ -2,8 +2,8 @@
 	"name" : "Lamp_Motion",
 	"version" : 1,
 	"creationdate" : 3635943327,
-	"modificationdate" : 3635946744,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : 3636016813,
+	"viewrect" : [ 772.0, 356.0, 708.0, 490.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -15,6 +15,11 @@
 				"local" : 1,
 				"toplevel" : 1
 			}
+,
+			"LM_On_Stage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -24,6 +29,11 @@
 ,
 		"data" : 		{
 			"lamps.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"lamps2.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
