@@ -76,6 +76,21 @@
 				}
 
 			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"samp1" : [ "cicada.wav" ],
+					"samp2" : [ "shortwave_18.wav" ],
+					"samp3" : [ "cicada.wav" ],
+					"samp4" : [ "shortwave_18.wav" ],
+					"Mics::gain1" : [ 50.0 ],
+					"Mics::gain2" : [ 50.0 ],
+					"Mics::gain3" : [ 50.0 ],
+					"Mics::gain4" : [ 50.0 ]
+				}
+
+			}
 
 		}
 
