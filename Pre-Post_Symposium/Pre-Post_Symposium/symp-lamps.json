@@ -7,10 +7,14 @@
 				"data" : 				{
 					"Mics::gain1" : [ 5.0 ],
 					"Mics::gain2" : [ 5.0 ],
-					"Fade_Light::scale_min" : [ 0.0 ],
-					"Fade_Light::scale_max" : [ 0.1 ],
-					"Fade_Light[1]::scale_min" : [ 0.0 ],
-					"Fade_Light[1]::scale_max" : [ 0.1 ]
+					"Fade_Light::scale_min" : [ 0.05 ],
+					"Fade_Light::scale_max" : [ 0.5 ],
+					"Fade_Light::cutoff" : [ 0.002 ],
+					"Fade_Light::falloff_amount" : [ -0.0001 ],
+					"Fade_Light[1]::scale_min" : [ 0.05 ],
+					"Fade_Light[1]::scale_max" : [ 0.1 ],
+					"Fade_Light[1]::cutoff" : [ 0.05 ],
+					"Fade_Light[1]::falloff_amount" : [ -0.0001 ]
 				}
 
 			}

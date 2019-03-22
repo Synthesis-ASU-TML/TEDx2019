@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 341.0, 97.0, 640.0, 527.0 ],
+		"rect" : [ 370.0, 102.0, 640.0, 527.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 202.0, 364.0, 314.0, 22.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "0. 0."
 				}
 
 			}
@@ -123,7 +124,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 256.0, 183.0, 235.0, 131.0 ],
+					"patching_rect" : [ 290.5, 158.0, 262.0, 146.0 ],
 					"presentation_rect" : [ 256.0, 183.0, 0.0, 0.0 ],
 					"varname" : "Fade_Light[1]",
 					"viewvisibility" : 1
@@ -145,7 +146,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 183.0, 235.0, 131.0 ],
+					"patching_rect" : [ 17.0, 158.0, 261.0, 146.0 ],
 					"varname" : "Fade_Light",
 					"viewvisibility" : 1
 				}
@@ -327,7 +328,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 136.0, 156.0, 50.0, 35.0 ],
 									"style" : "",
-									"text" : "0.00121"
+									"text" : "0.001575"
 								}
 
 							}
@@ -1969,7 +1970,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 45.833333, 168.0, 265.5, 168.0 ],
+					"midpoints" : [ 45.833333, 145.0, 300.0, 145.0 ],
 					"order" : 1,
 					"source" : [ "obj-6", 1 ]
 				}
@@ -1980,6 +1981,13 @@
 				"name" : "Fade_Light.maxpat",
 				"bootpath" : "~/Documents/Max 7/Projects/TEDx2019/Pre-Post_Symposium/Pre-Post_Symposium/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "symp-lamps.json",
+				"bootpath" : "~/Documents/Max 7/Projects/TEDx2019/Pre-Post_Symposium/Pre-Post_Symposium",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
