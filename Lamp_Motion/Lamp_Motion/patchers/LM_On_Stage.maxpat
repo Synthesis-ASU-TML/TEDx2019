@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 760.0, 88.0, 1263.0, 1279.0 ],
+		"rect" : [ 488.0, 78.0, 1263.0, 1279.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,7 +40,6 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-107",
-					"int" : 2,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 3,
@@ -170,7 +169,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1041.0, 919.5, 50.0, 35.0 ],
-					"text" : "0.008287"
+					"text" : "0.001968"
 				}
 
 			}
@@ -381,6 +380,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 1041.0, 67.0, 229.0, 244.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 467.0, 51.5, 229.0, 244.0 ],
 					"varname" : "sc.texture.camera.simple[2]",
 					"viewvisibility" : 1
 				}
@@ -406,7 +407,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
 					"patching_rect" : [ 902.0, 12.0, 100.0, 40.0 ],
-					"pattrstorage" : "lamps2"
+					"pattrstorage" : "lamps2",
+					"presentation" : 1,
+					"presentation_rect" : [ 243.0, 3.5, 100.0, 40.0 ]
 				}
 
 			}
@@ -509,6 +512,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-86",
+					"int" : 2,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 3,
@@ -722,7 +726,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 333.5, 919.0, 50.0, 35.0 ],
-					"text" : "0.001151"
+					"text" : "0.00277"
 				}
 
 			}
@@ -783,7 +787,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 641.0, 925.0, 50.0, 35.0 ],
-					"text" : "0.001798"
+					"text" : "0.001592"
 				}
 
 			}
@@ -1667,6 +1671,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 641.0, 72.5, 229.0, 244.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 236.0, 51.5, 229.0, 244.0 ],
 					"varname" : "sc.texture.camera.simple[1]",
 					"viewvisibility" : 1
 				}
@@ -1688,6 +1694,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 331.0, 58.5, 229.0, 244.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 51.5, 229.0, 244.0 ],
 					"varname" : "sc.texture.camera.simple",
 					"viewvisibility" : 1
 				}
@@ -1703,7 +1711,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 167.0, 58.5, 80.0, 35.0 ]
+					"patching_rect" : [ 167.0, 58.5, 80.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 156.0, 3.5, 80.0, 35.0 ]
 				}
 
 			}
@@ -1884,7 +1894,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 58.5, 150.0, 22.0 ]
+					"patching_rect" : [ 14.0, 58.5, 150.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 3.5, 150.0, 22.0 ]
 				}
 
 			}
@@ -1896,7 +1908,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 21.0, 356.5, 150.0, 22.0 ]
+					"patching_rect" : [ 21.0, 356.5, 150.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 27.5, 150.0, 22.0 ]
 				}
 
 			}
