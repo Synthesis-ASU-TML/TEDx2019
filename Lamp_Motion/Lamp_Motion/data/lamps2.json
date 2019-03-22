@@ -18,14 +18,14 @@
 					"sc.texture.presence::blur" : [ 3.904999971389771, 3.904999971389771 ],
 					"sc.texture.presence::memory" : [ 0.9 ],
 					"sc.texture.presence::lpf" : [ 1.0 ],
-					"sc.texture.presence::u519001334" : [ 3.904999971389771, 3.904999971389771 ],
+					"sc.texture.presence::u415011516" : [ 4.0, 3.904999971389771 ],
 					"sc.texture.presence::use_threshold" : [ 1.0 ],
 					"sc.texture.presence[1]::threshold" : [ 0.005 ],
 					"sc.texture.presence[1]::bypass" : [ 0.0 ],
 					"sc.texture.presence[1]::blur" : [ 3.904999971389771, 3.904999971389771 ],
 					"sc.texture.presence[1]::memory" : [ 0.9 ],
 					"sc.texture.presence[1]::lpf" : [ 1.0 ],
-					"sc.texture.presence[1]::u508001149" : [ 3.904999971389771, 3.904999971389771 ],
+					"sc.texture.presence[1]::u869011331" : [ 4.0, 3.904999971389771 ],
 					"sc.texture.presence[1]::use_threshold" : [ 1.0 ],
 					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
@@ -46,13 +46,19 @@
 					"sc.texture.presence[2]::blur" : [ 3.904999971389771, 3.904999971389771 ],
 					"sc.texture.presence[2]::memory" : [ 0.9 ],
 					"sc.texture.presence[2]::lpf" : [ 1.0 ],
-					"sc.texture.presence[2]::u401002155" : [ 3.904999971389771, 3.904999971389771 ],
+					"sc.texture.presence[2]::u093010664" : [ 3.904999971389771, 3.904999971389771 ],
 					"sc.texture.presence[2]::use_threshold" : [ 1.0 ],
 					"sc.texture.opflow[2]::diff_thresh" : [ 0.0 ],
 					"sc.texture.opflow[2]::opflow_thresh" : [ 0.0 ],
 					"sc.texture.opflow[2]::opflow_lambda" : [ 0.03 ],
 					"sc.texture.opflow[2]::opflow_force" : [ 1.0 ],
-					"sc.texture.opflow[2]::offset" : [ 3.0, 3.0 ]
+					"sc.texture.opflow[2]::offset" : [ 3.0, 3.0 ],
+					"l1_down" : [ -0.05 ],
+					"l1_up" : [ 0.1 ],
+					"l2_down" : [ -0.05 ],
+					"l2_up" : [ 0.1 ],
+					"l3_down" : [ -0.05 ],
+					"l3_up" : [ 0.1 ]
 				}
 
 			}
