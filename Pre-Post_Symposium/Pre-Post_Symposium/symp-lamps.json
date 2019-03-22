@@ -1,0 +1,22 @@
+{
+	"pattrstorage" : 	{
+		"name" : "symp-lamps",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"Mics::gain1" : [ 5.0 ],
+					"Mics::gain2" : [ 5.0 ],
+					"Fade_Light::scale_min" : [ 0.0 ],
+					"Fade_Light::scale_max" : [ 0.1 ],
+					"Fade_Light[1]::scale_min" : [ 0.0 ],
+					"Fade_Light[1]::scale_max" : [ 0.1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
