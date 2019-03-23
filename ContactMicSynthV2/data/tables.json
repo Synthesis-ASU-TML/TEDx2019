@@ -91,6 +91,36 @@
 				}
 
 			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"samp1" : [ "cicada.wav" ],
+					"samp2" : [ "shortwave_18.wav" ],
+					"samp3" : [ "cicada.wav" ],
+					"samp4" : [ "shortwave_18.wav" ],
+					"Mics::gain1" : [ 10.0 ],
+					"Mics::gain2" : [ 10.0 ],
+					"Mics::gain3" : [ 10.0 ],
+					"Mics::gain4" : [ 10.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"samp1" : [ "cicada.wav" ],
+					"samp2" : [ "shortwave_18.wav" ],
+					"samp3" : [ "cicada.wav" ],
+					"samp4" : [ "shortwave_18.wav" ],
+					"Mics::gain1" : [ 10.0 ],
+					"Mics::gain2" : [ 10.0 ],
+					"Mics::gain3" : [ 10.0 ],
+					"Mics::gain4" : [ 10.0 ]
+				}
+
+			}
 
 		}
 
